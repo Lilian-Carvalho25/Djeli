@@ -1,0 +1,191 @@
+.highlight-home {
+    background-image: url(destaque-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 88vh;
+}
+.text-highlight {
+    color: #F2F2F2;
+    padding-top: 10rem;
+    padding-left: 9rem;
+}
+.text-highlight h1 {
+    font-size: 4rem;
+    max-width: 35%;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+span {
+    color: #F25116;
+}
+.text-highlight p {
+    font-size: 1rem;
+    margin: 1.5rem 0px;
+}
+.highlight-home button {
+    background: #011526;
+    color: #F2F2F2;
+    padding: 12px 38px;
+    border: none;
+    border-radius:4px;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.highlight-home button:hover  {
+    background-color: #F25116;
+    color: #011526;
+    font-weight: 800;
+    transition: 1s;
+}
+.what-it-means {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: 3rem auto;
+}
+.what-it-means h2 {
+    text-align: center;
+    color: #F25116;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+}
+.what-it-means p {
+    max-width: 600px;
+    font-size: 1.1rem;
+}
+.container-data {
+    background-image: url(fundo-empoderando-almas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 0px;
+    color: #F2F2F2;
+}
+.container-data h2 {
+    text-align: center;
+    font-weight: 900;
+    color: #F25116;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    font-size: 2.3rem;
+}
+#transformando {
+    font-weight: 500;
+    text-align: center;
+}
+.datas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 1500px;
+}
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.data h3 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+.data p {
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1362px) {
+    .text-highlight {
+        padding-top: 8rem;
+        padding-left: 5rem;
+    }
+    .text-highlight h1 {
+        font-size: 3rem;
+        max-width: 35%;
+    }
+    .text-highlight p {
+        font-size: 1rem;
+        margin: 1.5rem 0px;
+    }
+}
+@media screen and (max-width:1157px) {
+    .what-it-means img {
+        width: 400px;
+    }
+    .what-it-means h2 {
+        font-size: 2rem;
+    }
+    .what-it-means p {
+        max-width: 470px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:980px) {
+    .text-highlight {
+        padding-top: 8rem;
+        padding-left: 3.5rem;
+    }
+    .text-highlight h1 {
+        font-size: 3rem;
+        max-width: 35%;
+    }
+    .what-it-means img {
+        width: 350px;
+    }
+    .what-it-means h2 {
+        font-size: 2rem;
+    }
+    .what-it-means p {
+        max-width: 470px;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:858px) {
+    .what-it-means {
+        flex-direction: column-reverse;
+    }
+    .what-it-means img {
+        width: 350px;
+        margin-top: 2rem;
+    }
+    .what-it-means h2 {
+        font-size: 2rem;
+    }
+    .what-it-means p {
+        max-width: 700px;
+    }
+}
+@media screen and (max-width:748px) {
+    .text-highlight {
+        padding-top: 6rem;
+        padding-left: 3rem;
+    }
+    .text-highlight h1 {
+        font-size: 2.5rem;
+        max-width: 40%;
+    }
+    .what-it-means p {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:545px) {
+    .text-highlight {
+        padding-top: 8rem;
+        padding-left: 1rem;
+    }
+    .text-highlight h1 {
+        font-size: 2.5rem;
+        max-width: 100%;
+        font-weight: 900;
+    }
+}
+@media screen and (max-width:396px) {
+    .what-it-means img {
+        width: 300px;
+        margin-top: 2rem;
+    }
+}
