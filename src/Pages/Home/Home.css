@@ -96,6 +96,45 @@ span {
 .data p {
     font-size: 1rem;
 }
+.container-offerings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+.resources {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.women-smiling {
+    width: 400px;
+}
+.container-offering h2 {
+    font-weight: 900;
+    color: #F25116;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    font-size: 2.3rem;
+}
+.offerings {
+    margin-bottom: 1rem;
+}
+.title-image {
+    display: flex;
+    gap: 1rem;
+}
+.text-offerings h3 {
+    font-size: 1.4rem;
+    color: #400101;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.offerings p {
+    max-width: 270px;
+    margin-top: 10px;
+}
+
 
 @media screen and (max-width:1362px) {
     .text-highlight {
@@ -122,6 +161,19 @@ span {
         max-width: 470px;
         font-size: 1rem;
     }
+    .women-smiling {
+        width: 370px;
+    }
+}
+@media screen and (max-width:1092px) {
+    .resources {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .container-offering h2 {
+        text-align: center;
+        margin: 1.5rem 0px;
+    }
 }
 @media screen and (max-width:980px) {
     .text-highlight {
@@ -141,6 +193,12 @@ span {
     .what-it-means p {
         max-width: 470px;
         font-size: 1rem;
+    }
+    .data h3 {
+        font-size: 3.5rem;
+    }
+    .data p {
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width:858px) {
@@ -171,6 +229,18 @@ span {
         max-width: 90%;
         margin: 0 auto;
     }
+    .datas {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+    .container-data {
+        padding: 3rem 0px;
+    }
+    .container-offerings {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
 }
 @media screen and (max-width:545px) {
     .text-highlight {
@@ -181,6 +251,12 @@ span {
         font-size: 2.5rem;
         max-width: 100%;
         font-weight: 900;
+    }
+    .container-data h2, .container-offering h2 {
+        font-size: 1.9rem;
+    }
+    .women-smiling {
+        width: 300px;
     }
 }
 @media screen and (max-width:396px) {
