@@ -14,8 +14,8 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto brand">
           <Nav.Link href="/">Início</Nav.Link>
-          <Nav.Link href="#plans">Sobre nós</Nav.Link>
-          <Nav.Link href="#feedback">Parceiros</Nav.Link>
+          <Nav.Link href="/sobrenos">Sobre nós</Nav.Link>
+          <Nav.Link href="#parceiros">Parceiros</Nav.Link>
           <Nav.Link href="/faleconosco">Fale conosco</Nav.Link>
           </Nav>
           <Nav className='ms-auto container-buttons-header'>

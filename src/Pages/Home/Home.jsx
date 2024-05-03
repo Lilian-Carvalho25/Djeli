@@ -101,7 +101,7 @@ const Home = () => {
                 <p className='text-resilience'>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ca aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
             </section>
 
-            <section className='container-logos'>
+            <section className='container-logos' id='parceiros'>
                 <div className='logos'>
                     <img src="logo-zumbi.png" alt="Logo da Universidade Zumbi dos Palmares" />
                     <img src="logo-ec-black.png" alt="Logo do ecossistema black" />

@@ -199,41 +199,6 @@ span {
         text-align: center;
         margin: 1.5rem 0px;
     }
-    .container-footer {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 1.5rem;
-        padding-left: 1.2rem;
-    }
-}
-@media screen and (max-width:980px) {
-    .text-highlight {
-        padding-top: 8rem;
-        padding-left: 3.5rem;
-    }
-    .text-highlight h1 {
-        font-size: 3rem;
-        max-width: 35%;
-    }
-    .what-it-means img {
-        width: 350px;
-    }
-    .what-it-means h2 {
-        font-size: 2rem;
-    }
-    .what-it-means p {
-        max-width: 470px;
-        font-size: 1rem;
-    }
-    .data h3 {
-        font-size: 3.5rem;
-    }
-    .data p {
-        font-size: 0.8rem;
-    }
-    .logos img {
-        width: 100px;
-    }
 }
 @media screen and (max-width:858px) {
     .what-it-means {
