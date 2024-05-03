@@ -64,7 +64,7 @@ span {
     padding: 4rem 0px;
     color: #F2F2F2;
 }
-.container-data h2 {
+.container-data h2, .container-resilience h2 {
     text-align: center;
     font-weight: 900;
     color: #F25116;
@@ -134,7 +134,32 @@ span {
     max-width: 270px;
     margin-top: 10px;
 }
-
+.container-resilience {
+    background-image: url(fundo-cachos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 0px;
+    color: #F2F2F2;
+    margin-top: 1.6rem;
+}
+.text-resilience {
+    text-align: center;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+.container-logos {
+    background-color: #011526;
+    padding: 2rem 0px;
+    border-bottom: #F25116 2px solid;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 850px;
+    margin: 0px auto;
+}
 
 @media screen and (max-width:1362px) {
     .text-highlight {
@@ -174,6 +199,12 @@ span {
         text-align: center;
         margin: 1.5rem 0px;
     }
+    .container-footer {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-left: 1.2rem;
+    }
 }
 @media screen and (max-width:980px) {
     .text-highlight {
@@ -200,6 +231,9 @@ span {
     .data p {
         font-size: 0.8rem;
     }
+    .logos img {
+        width: 100px;
+    }
 }
 @media screen and (max-width:858px) {
     .what-it-means {
@@ -214,6 +248,9 @@ span {
     }
     .what-it-means p {
         max-width: 700px;
+    }
+    .text-resilience {
+        max-width: 88%;
     }
 }
 @media screen and (max-width:748px) {
@@ -252,11 +289,15 @@ span {
         max-width: 100%;
         font-weight: 900;
     }
-    .container-data h2, .container-offering h2 {
+    .container-data h2, .container-offering h2, .container-resilience h2 {
         font-size: 1.9rem;
     }
     .women-smiling {
         width: 300px;
+    }
+    .logos {
+        flex-direction: column;
+        gap: 2rem;
     }
 }
 @media screen and (max-width:396px) {

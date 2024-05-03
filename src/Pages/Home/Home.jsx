@@ -1,3 +1,4 @@
+import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import './Home.css';
 
@@ -5,6 +6,7 @@ const Home = () => {
     return (
         <>
             <Header />
+
             <section className='highlight-home'>
                 <div className='text-highlight'>
                     <h1>Reconecte-se às suas raízes com a <span>DJELI</span></h1>
@@ -93,11 +95,22 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='resilience'>
-                <p>Cachos que contam histórias de</p>
+            <section className='container-resilience'>
+                <p id='transformando'>Cachos que contam histórias de</p>
                 <h2>Resiliência, força e poder</h2>
-                <p>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ca aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+                <p className='text-resilience'>Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ca aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
             </section>
+
+            <section className='container-logos'>
+                <div className='logos'>
+                    <img src="logo-zumbi.png" alt="Logo da Universidade Zumbi dos Palmares" />
+                    <img src="logo-ec-black.png" alt="Logo do ecossistema black" />
+                    <img src="logo-racismo-zero.png" alt="Logo do racismo zero" />
+                </div>
+            </section>
+
+            <Footer />
+            
         </>
     )
 }
