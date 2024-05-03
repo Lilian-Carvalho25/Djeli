@@ -1,5 +1,5 @@
 .highlight-about {
-    background-image: url(destaque-sobre-nos.jpg);
+    background-image: url(/destaque-sobre-nos.jpg);
     background-position: center;
     background-size: cover;
     height: 88vh;
@@ -38,7 +38,7 @@
     font-size: 1.1rem;
 }
 .hair-code-container {
-    background-image: url(fundo-desconstruindo.jpg);
+    background-image: url(/fundo-desconstruindo.jpg);
     background-position: center;
     background-size: cover;
     height: 35vh;

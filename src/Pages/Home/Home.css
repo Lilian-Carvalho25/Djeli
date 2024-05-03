@@ -1,5 +1,5 @@
 .highlight-home {
-    background-image: url(destaque-home.jpg);
+    background-image: url(/destaque-home.jpg);
     background-position: center;
     background-size: cover;
     height: 88vh;
@@ -57,7 +57,7 @@ span {
     font-size: 1.1rem;
 }
 .container-data {
-    background-image: url(fundo-empoderando-almas.jpg);
+    background-image: url(/fundo-empoderando-almas.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ span {
     margin-top: 10px;
 }
 .container-resilience {
-    background-image: url(fundo-cachos.jpg);
+    background-image: url(/fundo-cachos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
